@@ -19,7 +19,7 @@ publish:
 
 deploy:
     webhook:
-        image: plugins/dront-webhook
+        image: plugins/drone-webhook
         skip_verify: true
         method: POST
         auth:
