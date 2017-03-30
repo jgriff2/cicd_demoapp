@@ -16,3 +16,14 @@ publish:
         username: jgriff2
         password: nopass123
         email: schizzy63@gmail.com
+
+deploy:
+    webhook:
+        image: plugins/dront-webhook
+        skip_verify: true
+        method: POST
+        auth:
+            username: CICD1
+            password: CICD1
+        urls:
+            - https://control.sandbox.imapex.io/marathon/v2/apps/class/jgriff2/restart?force=true
