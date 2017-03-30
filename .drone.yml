@@ -27,3 +27,9 @@ deploy:
             password: CICD1
         urls:
             - https://control.sandbox.imapex.io/marathon/v2/apps/class/jgriff2/restart?force=true
+
+notify:
+    spark:
+        image: hypreston/drone-spark
+        auth_token: MjNiZmVmZDUtZTU2NC00MWMzLWE4MDctNzk4NDJlODRjYzgxMWIxNGNiMjctYzcy
+        roomId: Y2lzY29zcGFyazovL3VzL1JPT00vODVmMzAzNTAtMTQwNC0xMWU3LTkxZWQtNjMzYWE4Y2FkZDNj
