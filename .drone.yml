@@ -30,6 +30,6 @@ deploy:
 
 notify:
     spark:
-        image: hypreston/drone-spark
+        image: hpreston/drone-spark
         auth_token: MjNiZmVmZDUtZTU2NC00MWMzLWE4MDctNzk4NDJlODRjYzgxMWIxNGNiMjctYzcy
         roomId: Y2lzY29zcGFyazovL3VzL1JPT00vODVmMzAzNTAtMTQwNC0xMWU3LTkxZWQtNjMzYWE4Y2FkZDNj
